@@ -1,0 +1,31 @@
+.sender{
+  margin-bottom: 2%;
+
+}
+
+.inputForm[data-visible=false]{
+    visibility: hidden;
+}
+
+.replyingBox{
+  max-width: 400px;
+  border-left: 4px solid #0f70d6;
+  padding-left: 8px;
+}
+
+.replyingMessage{
+  font-style: oblique;
+  color: rgba(49, 33, 33, 0.45);
+  font-size: 14px;
+  margin-bottom: 0;
+  word-break: break-word;
+  display: inline-block;
+  max-width: 200px;
+
+}
+
+.replyingIcon{
+  height: 100%;
+  width: 5px;
+  color: #0f70d6;
+}
